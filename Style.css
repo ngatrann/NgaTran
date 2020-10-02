@@ -6,19 +6,20 @@
   box-sizing: border-box;
 }
 body{
-  font-family: Verdana, sans-serif;
+  font-family: courier, sans-serif;
 }
+
 nav{
   background-image: url(stars.jpg);
   height: 60px;
   width: 100%;
 }
 
-nav ul{
+nav ul{  /* navigation bar set up (set right)*/
   float: right;
   margin-right: 20px;
 }
-nav ul li{
+nav ul li{ /* navigation bar set up (set horizontal)*/
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
@@ -31,8 +32,7 @@ nav ul li a{ /* navigation bar text*/
   text-transform: uppercase;
   font-weight: bolder;
 }
-.titleDiv{
-}
+
 div.titleDiv{
   text-align:center;
   height: 400px;
@@ -46,9 +46,22 @@ div.titleDiv{
   font-size: 80px;
 }
 .titleDiv h3{
-  color:white;
-  font-size: 20px;
-  font-weight:bold;
+  animation: type 4s steps(18);
+  overflow: hidden;
+  white-space: nowrap;
+  animation-iteration-count: 3;
+  font-family: consolas;
+  border-right: 2px solid white;
+  width: 18ch;
+  color: white;
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width:18ch;
+  }
 }
 div.homeInfo{
   height: 200px;
