@@ -45,14 +45,21 @@ div.titleDiv{
   color:white;
   font-size: 80px;
 }
-.titleDiv h3{
-  animation: type 4s steps(18);
+.titleDiv p{
+  display: inline-block;
+  vertical-align:top;
+}
+.intro{
+  font-family: consolas;
+  width: 18ch;
+  color: white;
+}
+#moving{
+  animation: type 4s steps(13);
   overflow: hidden;
   white-space: nowrap;
-  animation-iteration-count: 3;
-  font-family: consolas;
+  animation-iteration-count: infinite;
   border-right: 2px solid white;
-  width: 18ch;
   color: white;
 }
 @keyframes type {
@@ -60,7 +67,7 @@ div.titleDiv{
     width: 0ch;
   }
   100% {
-    width:18ch;
+    width:13ch;
   }
 }
 div.homeInfo{
