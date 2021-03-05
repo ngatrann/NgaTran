@@ -1,16 +1,17 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="Website" content= "Online portfolio">
 		<title>Nga Tran</title>
 		<link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 	<div id="homeTitle" class="titleDiv">
 		<nav>
 			<ul>
-	        <li><a class="active" href="HomePage.html">Home</a></li>
+	        <li><a class="active" href="index.html">Home</a></li>
 	        <li><a href="About.html">About</a></li>
 	       	<li><a href="Project.html">Project</a></li>
 	        <li><a href="Resume.html">Resume</a></li>
@@ -25,19 +26,36 @@
 	</div>
 
 	<div id="info1" class="homeInfo">
-		<br></br>
-		<h2><a href="Project.html">Projects I worked on</a></h2>
-		<h3><a href="Project.html">Have some free time to kill? Check out some game I made!</a></h3>
+      <div class="project">
+        <a href="https://grammark.herokuapp.com/" target="_blank"><img src="Grammark.jpg" alt="Grammark" ></a>
+        <p id= "pName"><b>Grammark</b></p>
+        <p id= "pLanguages"><b>Languages:</b> HTML/CSS, JavaScript, TypeScript</p>
+        <p id= "pDetail">Grammark is a writing assistance tool.</p>
+      </div>
+
+      <div class="project">
+        <a href="https://github.com/ngatrann/JusticeLeagueSpring2020" target="_blank"><img src="DisneyDreamWorlds.jpg" alt="DisneyDreamWorlds"></a>
+        <p id= "pName"><b>DisneyDreamWorlds</b></p>
+        <p id= "pLanguages"><b>Languages:</b> Java</p>
+        <p id= "pDetail">DisneyDreamWorlds is a textbased adevture game.</p>
+      </div>
+
+     <div class="project">
+  			<a href="TicTacToePage.html" target="_blank"><img src="TicTacToe.jpg" alt="TicTacToe"></a>
+  			<p id= "pName"><b>TicTacToe</b></p>
+  			<p id= "pLanguages"><b>Languages:</b> HTML, CSS, JavaScript</p>
+  			<p id= "pDetail">Classic Tic-Tac-Toe game!</p>
+  		</div>
+
 	</div>
 
 	<div id="info2" class="homeInfo">
-		<br></br>
-		<h2><a href="About.html">Who am I?</a></h2>
-		<h3><a href="About.html">Checkout what I do and what I'm passionate about!</a></h3>
+    <a href="https://www.linkedin.com/in/nga-tran-3206541a3/" class="fa fa-linkedin" target="_blank"></a>
+    <a href="https://github.com/ngatrann" class="fa fa-github" target="_blank"></a>
 	</div>
 
 	<div id="info3" class="homeInfo">
-		<br>
+		<!-- <br>
 		<h3>Do you have any other comments/questions or concerns?</h3>
 		<form action="ngatranns@yahoo.com" method="post" enctype="text/plain">
 		Name:<br>
@@ -48,7 +66,8 @@
 		<input type="text" name="comment" size="50"><br>
 		<input type="submit" value="Send">
 		<input type="reset" value="Reset">
-		</form>
+		</form> -->
+    <!-- <img src="Me.jpg" alt="" /> -->
 	</div>
 
 	</body>

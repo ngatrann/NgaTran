@@ -1,3 +1,4 @@
+
 *{
   padding: 0;
   margin: 0;
@@ -16,7 +17,7 @@ nav{
 }
 
 nav ul{  /* navigation bar set up (set right)*/
-  float: right;
+  float: center;
   margin-right: 20px;
 }
 nav ul li{ /* navigation bar set up (set horizontal)*/
@@ -33,9 +34,9 @@ nav ul li a{ /* navigation bar text*/
   font-weight: bolder;
 }
 
-div.titleDiv{
+div.titleDiv{ /* navigation bar text*/
   text-align:center;
-  height: 400px;
+  height: 250px;
   width: 100%;
   background-image: url(stars.jpg);
   padding-top:0px;
@@ -43,7 +44,7 @@ div.titleDiv{
 }
 .titleDiv h2{
   color:white;
-  font-size: 80px;
+  font-size: 70px;
 }
 .titleDiv p{
   display: inline-block;
@@ -71,10 +72,25 @@ div.titleDiv{
   }
 }
 div.homeInfo{
-  height: 200px;
+  display: flex;
+  height: 300px;
   width: 80%;
   margin: 0 auto;
-  border-bottom: 1px solid lightgrey;
+}
+img {
+  padding: 10px;
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.project{
+  width: 33.33%;
+  padding: 10px;
+  background-color: #F8F8F8;
+  margin: 10px;
 }
 .homeInfo h2 a{
   text-decoration:none;
@@ -95,6 +111,40 @@ div.homeInfo{
   padding-top:20px;
   padding-bottom:20px;
 }
+#info2{
+  width: 100%;
+  background-color: black;
+  height: 150px;
+  align-items: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 8px;
+}
+
+.fa-linkedin {
+  background: white;
+  color: black;
+  text-align: center;
+  margin-left: 45%;
+  width: 5%;
+}
+
+.fa-github {
+  background: white;
+  color: black;
+  text-align: center;
+  margin-right: 45%;
+  width: 5%;
+}
 #info3{
-   height: 300px;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('ATL.jpg');
 }
