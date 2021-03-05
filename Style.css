@@ -147,7 +147,7 @@ img {
   overflow: hidden;
   background-size: cover;
   background-position: center;
-  background-image: url('ATL.jpg');
+  background-image: url('ATL.JPG');
 }
 
 /* aboutPage */
@@ -174,4 +174,10 @@ img {
 .dis p{
   line-height: 2;
   font-size: 17px;
+}
+
+/* ResumePage */
+#resumePic{
+  width: 601px;
+  height: 743px;
 }
