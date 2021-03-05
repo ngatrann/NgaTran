@@ -88,7 +88,7 @@ img {
 
 .project{
   width: 33.33%;
-  padding: 10px;
+  padding: 20px;
   background-color: #F8F8F8;
   margin: 10px;
 }
@@ -111,6 +111,7 @@ img {
   padding-top:20px;
   padding-bottom:20px;
 }
+
 #info2{
   width: 100%;
   background-color: black;
@@ -147,4 +148,30 @@ img {
   background-size: cover;
   background-position: center;
   background-image: url('ATL.jpg');
+}
+
+/* aboutPage */
+.container {
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  padding: 10px;
+}
+
+.pic {
+  width: 30%;
+  height: 200px;
+  float: left;
+}
+
+.dis {
+  padding: 50px;
+  margin-left: 25%;
+  height: 200px;
+  margin-right: 10%;
+}
+
+.dis p{
+  line-height: 2;
+  font-size: 17px;
 }
